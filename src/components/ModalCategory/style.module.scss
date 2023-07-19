@@ -1,0 +1,44 @@
+
+.container{
+  width: 100%;
+  max-width: 300px;
+  background-color: transparent;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.Input{
+  border-radius: 8px;
+  padding: 18px 24px;
+  width: 100%;
+  max-width: 400px;
+  font-size: 16px;
+  margin-block: 30px;
+  
+}
+
+.buttonOrder{
+  margin-top: 1.5rem;
+  width: 300px; 
+  border:0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+  color: var(--red-900);
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .container{
+      width: 430px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+      width: 330px;
+    }
+}

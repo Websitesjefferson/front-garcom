@@ -1,0 +1,76 @@
+.FoodsContainer {
+    display: flex;
+    
+    max-width: 900px;
+    margin: auto;
+    width: 100%;
+   
+    
+
+  
+
+}
+.text{
+    font-size: 20px;
+    color: var(--gray-100);
+    align-items: center;
+    margin-top: 50px;
+}
+
+.Card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    margin: auto;
+    
+}
+.CardProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.Container {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    overflow-x: auto;
+
+
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #39b100;
+    width: 160px;
+    border-radius: 8px;
+    
+    
+   button {
+        font-weight: 600;
+        border: 0;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 66px;   
+        background-color: transparent;
+        margin: auto;
+        text-align: center
+        ;
+
+ 
+
+    }
+}

@@ -1,0 +1,45 @@
+
+.container{
+  max-width: 720px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.container h1{
+  color: var(--black);
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.input{
+  background: transparent;
+  border:0;
+  padding: 1rem;
+  height: 40px;
+  border-radius: 0.3rem;
+  color: black;
+  border: 1px solid var(--gray-100);
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.buttonAdd{
+  height: 40px;
+  
+  background: #39b100;
+  border: 0;
+  color: var(--white);
+  
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  
+}
